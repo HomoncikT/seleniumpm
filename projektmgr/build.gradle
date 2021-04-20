@@ -1,0 +1,54 @@
+apply plugin: 'java'
+
+ext {
+    gradleVersion = "5.6"
+    junitJupiterVersion = "5.5.1"
+    seleniumJavaVersion = "3.141.59"
+    webDriverManagerVersion = "3.6.2"
+    logbackVersion = "1.2.3"
+}
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    /* JUnit 5 */
+    testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
+    testCompile("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
+    /* Optional dependency for parameterized tests */
+    testCompile("org.junit.jupiter:junit-jupiter-params:${junitJupiterVersion}")
+    /* Selenium */
+    testCompile("org.seleniumhq.selenium:selenium-java:${seleniumJavaVersion}")
+    /* WebDriverManager */
+    testCompile("io.github.bonigarcia:webdrivermanager:${webDriverManagerVersion}")
+    /* Logging with Logback */
+    testCompile("ch.qos.logback:logback-core:${logbackVersion}")
+    testCompile("ch.qos.logback:logback-classic:${logbackVersion}")
+}
+
+compileTestJava {
+    options.encoding = "UTF-8"
+}
+
+test {
+
+    useJUnitPlatform()
+    
+    // default browser is chrome; pass the property via -P parameter: ./gradlew clean test -Pbrowser=firefox
+    systemProperty "browser", project.findProperty("browser") ?: "chrome"
+
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+
+    reports {
+        html.enabled = true
+    }
+}
+
+wrapper {
+    gradleVersion = "${gradleVersion}"
+}

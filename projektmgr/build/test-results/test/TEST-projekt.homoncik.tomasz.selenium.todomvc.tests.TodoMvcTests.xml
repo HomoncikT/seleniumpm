@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-19T16:02:32" hostname="DESKTOP-2G50UNF" time="25.828">
+  <properties/>
+  <testcase name="editsTodo()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="4.459"/>
+  <testcase name="togglesTodoCompleted()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="2.977"/>
+  <testcase name="createsTodo()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="4.123"/>
+  <testcase name="removesTodo()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="3.524"/>
+  <testcase name="togglesAllTodosCompleted()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="3.987"/>
+  <testcase name="createsTodosWithSameName()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="2.916"/>
+  <testcase name="clearsCompletedTodos()" classname="projekt.homoncik.tomasz.selenium.todomvc.tests.TodoMvcTests" time="3.838"/>
+  <system-out><![CDATA[18:02:32.722 INFO  i.g.b.w.WebDriverManager - Using chromedriver 90.0.4430.24 (since Google Chrome 90 is installed in your machine)
+18:02:32.744 INFO  i.g.b.w.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\thomo\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35442
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 31272
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 38501
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20573
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 36781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37956
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 45173
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+kwi 19, 2021 6:02:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
